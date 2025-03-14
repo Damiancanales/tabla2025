@@ -21,5 +21,9 @@ $("#agregar").click(function () {
 
 cont++;
 
-//agregar la fila a la tabla 
-$()
+//Agregar la fila a la tabla 
+    $("#tabla").append(fila);
+
+    //Limpiar los inputs
+    $("#nombre, #cedula, #correo, #direccion").val("");
+    }
